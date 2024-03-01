@@ -17,13 +17,30 @@ https://hackmd.io/@webzero/zombienet-workshop
 
 **Step 1: Clone this workshop repo 👇**
 
-**Step 2: Make sure you have Zombienet installed 🧟‍♀️**
+**Step 2: Make sure you have all the binaries downloaded 🧟‍♀️**
 
-1. Download the binary from the [Zombienet releases page](https://github.com/paritytech/zombienet/releases) (macos or Linux).
+MacOs users: All the binaries you'll need are [here](https://github.com/JoinWebZero/local-polkadot-testnet/releases/tag/polkadot-v1.0.0).
 
-1. Copy the binary into the root directory of your cloned repository.
+For Linux users: download the Polkadot binaries from the Polkadot releases page:
+* First, get the binaries needed to run the Relay Chain [here](https://github.com/paritytech/polkadot-sdk/releases/tag/polkadot-v1.1.0)
+* Then, download the `polkadot-parachain` binary.
 
-Check it works by running:
+ **MacOS binaries** 
+
+[Denver Releases](https://github.com/JoinWebZero/local-polkadot-testnet/releases/tag/polkadot-v1.0.0):
+- Relay chain node
+- Parachain node
+
+**Linux binaries**
+
+[Polkadot SDK releases](https://github.com/paritytech/polkadot-sdk/releases/tag/polkadot-v1.1.0):
+- Relay chain node
+- Parachain node
+
+
+Copy the downloaded binaries into the root directory of your cloned repository.
+
+Check it works by running (macOs):
 
 ```bash
 ./zombienet-macos -h
